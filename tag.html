@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chessboard with Pieces</title>
+  <style>
+    .chessboard {
+      width: 480px;
+      height: 480px;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      border: 2px solid black;
+      font-size: 40px;        
+      text-align: center;     
+      line-height: 60px;     
+    }
+    .square { width: 60px; height: 60px; }
+    .black  { background: #769656; }
+    .white  { background: #eeeed2; }
+  </style>
+</head>
+<body>
+  <div class="chessboard">
+    
+    <div class="white square">♜</div><div class="black square">♞</div><div class="white square">♝</div><div class="black square">♛</div><div class="white square">♚</div><div class="black square">♝</div><div class="white square">♞</div><div class="black square">♜</div>
+   
+    <div class="black square">♟</div><div class="white square">♟</div><div class="black square">♟</div><div class="white square">♟</div><div class="black square">♟</div><div class="white square">♟</div><div class="black square">♟</div><div class="white square">♟</div>
+   
+    <div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div>
+   
+    <div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div>
+
+    <div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div>
+  
+    <div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div><div class="black square"></div><div class="white square"></div>
+    
+    <div class="white square">♙</div><div class="black square">♙</div><div class="white square">♙</div><div class="black square">♙</div><div class="white square">♙</div><div class="black square">♙</div><div class="white square">♙</div><div class="black square">♙</div>
+    
+    <div class="black square">♖</div><div class="white square">♘</div><div class="black square">♗</div><div class="white square">♕</div><div class="black square">♔</div><div class="white square">♗</div><div class="black square">♘</div><div class="white square">♖</div>
+  </div>
+</body>
+</html>
+
